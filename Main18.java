@@ -64,8 +64,8 @@ public class Main18 {
         return luas;
     }
 
-    public static int luasSegitiga(int a, int t) {
-        int luas = (1 / 2) * a * t;
+    public static double luasSegitiga(int a, int t) {
+        int double = (0.5) * a * t;
         return luas;
     }
 
@@ -87,6 +87,7 @@ public class Main18 {
     }
 
     public static void cetakL(int r) {
-        System.out.println(luasLingkaran(r));
+        System.out.printf("%.2f",luasLingkaran(r));
+        System.out.println();
     }}
 
